@@ -1,0 +1,38 @@
+.acerca-de-nosotros{
+    background-color: #020202 ;
+}
+.titulo{
+    text-align: center;
+    font-size: 2rem;
+    color: bisque;
+    font-weight: 100%;
+    font-family: sans-serif;
+}
+.descripcion{
+    text-align: center;
+    color: bisque;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 10px 10px;
+}
+.personal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imagen-perfil{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+.nombre{
+    display: flex;
+    text-align: center;
+    margin: 1rem 2rem ;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px){
+    .acerca-de-nosotros{
+        display: none;
+    }
+}
